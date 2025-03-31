@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".PlanningActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mon planning journalier"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <EditText
+            android:id="@+id/et_creneau_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="08h-10h"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <EditText
+            android:id="@+id/et_creneau_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="10h-12h"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <EditText
+            android:id="@+id/et_creneau_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="14h-16h"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+        <EditText
+            android:id="@+id/et_creneau_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="16h-18h"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_valider_planning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valider mon planning" />
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Récapitulatif de l'inscription"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login: "
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom: "
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_prenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prénom: "
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_date_naissance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date de naissance: "
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_telephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Téléphone: "
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_centres_interet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Centres d'intérêt: "
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>
